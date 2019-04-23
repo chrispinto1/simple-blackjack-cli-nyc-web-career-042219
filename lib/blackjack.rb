@@ -48,6 +48,7 @@ def hit?(card_number)
     letter = get_user_input
   end
   if letter == "s"
+    total+=deal_card
    display_card_total(total)
   elsif letter != "h" && letter != "s"
     invalid_command
