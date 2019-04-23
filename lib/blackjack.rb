@@ -52,7 +52,7 @@ def hit?(card_number)
   elsif letter != "h" && letter != "s"
     invalid_command
     prompt_user
-  #  return display_card_total
+   return display_card_total
 end
 end
 
