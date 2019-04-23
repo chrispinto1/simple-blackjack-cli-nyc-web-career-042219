@@ -44,8 +44,6 @@ def hit?(card_number)
   if letter == "h" && letter != "s"
     total+=deal_card
     puts total
-    prompt_user
-    letter = get_user_input
   end
   if letter == "s"
     total+=deal_card
