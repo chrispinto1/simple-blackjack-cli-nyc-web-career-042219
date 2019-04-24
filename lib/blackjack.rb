@@ -40,7 +40,7 @@ def hit?(card_number)
   # code hit? here
   prompt_user
   letter = get_user_input
-  total = 0
+  total = card_number
   
 end
 
