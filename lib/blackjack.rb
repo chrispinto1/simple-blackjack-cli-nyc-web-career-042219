@@ -43,6 +43,7 @@ def hit?(card_number)
   total = card_number
   if letter == "h"
     total+= deal_card
+    puts total
   end
   return display_card_total(total)
   
