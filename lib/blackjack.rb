@@ -41,6 +41,9 @@ def hit?(card_number)
   prompt_user
   letter = get_user_input
   total = card_number
+  if input == "h"
+    total+= deal_card
+  end
   
 end
 
