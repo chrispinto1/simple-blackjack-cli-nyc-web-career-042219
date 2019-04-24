@@ -47,7 +47,7 @@ def hit?(card_number)
   else
     invalid_command
     prompt_user
-    get.chomp
+    gets.chomp
   end
   
 end
