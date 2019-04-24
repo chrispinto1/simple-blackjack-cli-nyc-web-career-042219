@@ -44,7 +44,7 @@ def hit?(card_number)
   if letter == "h"
     total+= deal_card
   end
-  display_card_total(total)
+  return display_card_total(total)
   
 end
 
